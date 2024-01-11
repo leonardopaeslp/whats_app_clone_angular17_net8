@@ -1,0 +1,64 @@
+C:\Users\leopa\OneDrive\Documentos\ASPNET\Projects\whatsapp\WhatsAppFinalApi\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\leopa\OneDrive\Documentos\ASPNET\Projects\whatsapp\WhatsAppFinalApi\bin\Debug\net6.0\appsettings.json
+C:\Users\leopa\OneDrive\Documentos\ASPNET\Projects\whatsapp\WhatsAppFinalApi\bin\Debug\net6.0\WhatsAppFinalApi.exe
+C:\Users\leopa\OneDrive\Documentos\ASPNET\Projects\whatsapp\WhatsAppFinalApi\bin\Debug\net6.0\WhatsAppFinalApi.deps.json
+C:\Users\leopa\OneDrive\Documentos\ASPNET\Projects\whatsapp\WhatsAppFinalApi\bin\Debug\net6.0\WhatsAppFinalApi.runtimeconfig.json
+C:\Users\leopa\OneDrive\Documentos\ASPNET\Projects\whatsapp\WhatsAppFinalApi\bin\Debug\net6.0\WhatsAppFinalApi.dll
+C:\Users\leopa\OneDrive\Documentos\ASPNET\Projects\whatsapp\WhatsAppFinalApi\bin\Debug\net6.0\WhatsAppFinalApi.pdb
+C:\Users\leopa\OneDrive\Documentos\ASPNET\Projects\whatsapp\WhatsAppFinalApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\leopa\OneDrive\Documentos\ASPNET\Projects\whatsapp\WhatsAppFinalApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\leopa\OneDrive\Documentos\ASPNET\Projects\whatsapp\WhatsAppFinalApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\leopa\OneDrive\Documentos\ASPNET\Projects\whatsapp\WhatsAppFinalApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\leopa\OneDrive\Documentos\ASPNET\Projects\whatsapp\WhatsAppFinalApi\obj\Debug\net6.0\WhatsAppFinalApi.csproj.AssemblyReference.cache
+C:\Users\leopa\OneDrive\Documentos\ASPNET\Projects\whatsapp\WhatsAppFinalApi\obj\Debug\net6.0\WhatsAppFinalApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leopa\OneDrive\Documentos\ASPNET\Projects\whatsapp\WhatsAppFinalApi\obj\Debug\net6.0\WhatsAppFinalApi.AssemblyInfoInputs.cache
+C:\Users\leopa\OneDrive\Documentos\ASPNET\Projects\whatsapp\WhatsAppFinalApi\obj\Debug\net6.0\WhatsAppFinalApi.AssemblyInfo.cs
+C:\Users\leopa\OneDrive\Documentos\ASPNET\Projects\whatsapp\WhatsAppFinalApi\obj\Debug\net6.0\WhatsAppFinalApi.csproj.CoreCompileInputs.cache
+C:\Users\leopa\OneDrive\Documentos\ASPNET\Projects\whatsapp\WhatsAppFinalApi\obj\Debug\net6.0\WhatsAppFinalApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\leopa\OneDrive\Documentos\ASPNET\Projects\whatsapp\WhatsAppFinalApi\obj\Debug\net6.0\WhatsAppFinalApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\leopa\OneDrive\Documentos\ASPNET\Projects\whatsapp\WhatsAppFinalApi\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\leopa\OneDrive\Documentos\ASPNET\Projects\whatsapp\WhatsAppFinalApi\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\leopa\OneDrive\Documentos\ASPNET\Projects\whatsapp\WhatsAppFinalApi\obj\Debug\net6.0\staticwebassets\msbuild.WhatsAppFinalApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\leopa\OneDrive\Documentos\ASPNET\Projects\whatsapp\WhatsAppFinalApi\obj\Debug\net6.0\staticwebassets\msbuild.build.WhatsAppFinalApi.props
+C:\Users\leopa\OneDrive\Documentos\ASPNET\Projects\whatsapp\WhatsAppFinalApi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.WhatsAppFinalApi.props
+C:\Users\leopa\OneDrive\Documentos\ASPNET\Projects\whatsapp\WhatsAppFinalApi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.WhatsAppFinalApi.props
+C:\Users\leopa\OneDrive\Documentos\ASPNET\Projects\whatsapp\WhatsAppFinalApi\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\leopa\OneDrive\Documentos\ASPNET\Projects\whatsapp\WhatsAppFinalApi\obj\Debug\net6.0\scopedcss\bundle\WhatsAppFinalApi.styles.css
+C:\Users\leopa\OneDrive\Documentos\ASPNET\Projects\whatsapp\WhatsAppFinalApi\obj\Debug\net6.0\WhatsAppFinalApi.csproj.CopyComplete
+C:\Users\leopa\OneDrive\Documentos\ASPNET\Projects\whatsapp\WhatsAppFinalApi\obj\Debug\net6.0\WhatsAppFinalApi.dll
+C:\Users\leopa\OneDrive\Documentos\ASPNET\Projects\whatsapp\WhatsAppFinalApi\obj\Debug\net6.0\refint\WhatsAppFinalApi.dll
+C:\Users\leopa\OneDrive\Documentos\ASPNET\Projects\whatsapp\WhatsAppFinalApi\obj\Debug\net6.0\WhatsAppFinalApi.pdb
+C:\Users\leopa\OneDrive\Documentos\ASPNET\Projects\whatsapp\WhatsAppFinalApi\obj\Debug\net6.0\WhatsAppFinalApi.genruntimeconfig.cache
+C:\Users\leopa\OneDrive\Documentos\ASPNET\Projects\whatsapp\WhatsAppFinalApi\obj\Debug\net6.0\ref\WhatsAppFinalApi.dll
+C:\Users\leopa\OneDrive\Documentos\Curso Angular\clone_whats_app\WhatsAppFinalApi\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\leopa\OneDrive\Documentos\Curso Angular\clone_whats_app\WhatsAppFinalApi\bin\Debug\net6.0\appsettings.json
+C:\Users\leopa\OneDrive\Documentos\Curso Angular\clone_whats_app\WhatsAppFinalApi\bin\Debug\net6.0\WhatsAppFinalApi.exe
+C:\Users\leopa\OneDrive\Documentos\Curso Angular\clone_whats_app\WhatsAppFinalApi\bin\Debug\net6.0\WhatsAppFinalApi.deps.json
+C:\Users\leopa\OneDrive\Documentos\Curso Angular\clone_whats_app\WhatsAppFinalApi\bin\Debug\net6.0\WhatsAppFinalApi.runtimeconfig.json
+C:\Users\leopa\OneDrive\Documentos\Curso Angular\clone_whats_app\WhatsAppFinalApi\bin\Debug\net6.0\WhatsAppFinalApi.dll
+C:\Users\leopa\OneDrive\Documentos\Curso Angular\clone_whats_app\WhatsAppFinalApi\bin\Debug\net6.0\WhatsAppFinalApi.pdb
+C:\Users\leopa\OneDrive\Documentos\Curso Angular\clone_whats_app\WhatsAppFinalApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\leopa\OneDrive\Documentos\Curso Angular\clone_whats_app\WhatsAppFinalApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\leopa\OneDrive\Documentos\Curso Angular\clone_whats_app\WhatsAppFinalApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\leopa\OneDrive\Documentos\Curso Angular\clone_whats_app\WhatsAppFinalApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\leopa\OneDrive\Documentos\Curso Angular\clone_whats_app\WhatsAppFinalApi\obj\Debug\net6.0\WhatsAppFinalApi.csproj.AssemblyReference.cache
+C:\Users\leopa\OneDrive\Documentos\Curso Angular\clone_whats_app\WhatsAppFinalApi\obj\Debug\net6.0\WhatsAppFinalApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leopa\OneDrive\Documentos\Curso Angular\clone_whats_app\WhatsAppFinalApi\obj\Debug\net6.0\WhatsAppFinalApi.AssemblyInfoInputs.cache
+C:\Users\leopa\OneDrive\Documentos\Curso Angular\clone_whats_app\WhatsAppFinalApi\obj\Debug\net6.0\WhatsAppFinalApi.AssemblyInfo.cs
+C:\Users\leopa\OneDrive\Documentos\Curso Angular\clone_whats_app\WhatsAppFinalApi\obj\Debug\net6.0\WhatsAppFinalApi.csproj.CoreCompileInputs.cache
+C:\Users\leopa\OneDrive\Documentos\Curso Angular\clone_whats_app\WhatsAppFinalApi\obj\Debug\net6.0\WhatsAppFinalApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\leopa\OneDrive\Documentos\Curso Angular\clone_whats_app\WhatsAppFinalApi\obj\Debug\net6.0\WhatsAppFinalApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\leopa\OneDrive\Documentos\Curso Angular\clone_whats_app\WhatsAppFinalApi\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\leopa\OneDrive\Documentos\Curso Angular\clone_whats_app\WhatsAppFinalApi\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\leopa\OneDrive\Documentos\Curso Angular\clone_whats_app\WhatsAppFinalApi\obj\Debug\net6.0\staticwebassets\msbuild.WhatsAppFinalApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\leopa\OneDrive\Documentos\Curso Angular\clone_whats_app\WhatsAppFinalApi\obj\Debug\net6.0\staticwebassets\msbuild.build.WhatsAppFinalApi.props
+C:\Users\leopa\OneDrive\Documentos\Curso Angular\clone_whats_app\WhatsAppFinalApi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.WhatsAppFinalApi.props
+C:\Users\leopa\OneDrive\Documentos\Curso Angular\clone_whats_app\WhatsAppFinalApi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.WhatsAppFinalApi.props
+C:\Users\leopa\OneDrive\Documentos\Curso Angular\clone_whats_app\WhatsAppFinalApi\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\leopa\OneDrive\Documentos\Curso Angular\clone_whats_app\WhatsAppFinalApi\obj\Debug\net6.0\scopedcss\bundle\WhatsAppFinalApi.styles.css
+C:\Users\leopa\OneDrive\Documentos\Curso Angular\clone_whats_app\WhatsAppFinalApi\obj\Debug\net6.0\WhatsAppFinalApi.csproj.CopyComplete
+C:\Users\leopa\OneDrive\Documentos\Curso Angular\clone_whats_app\WhatsAppFinalApi\obj\Debug\net6.0\WhatsAppFinalApi.dll
+C:\Users\leopa\OneDrive\Documentos\Curso Angular\clone_whats_app\WhatsAppFinalApi\obj\Debug\net6.0\refint\WhatsAppFinalApi.dll
+C:\Users\leopa\OneDrive\Documentos\Curso Angular\clone_whats_app\WhatsAppFinalApi\obj\Debug\net6.0\WhatsAppFinalApi.pdb
+C:\Users\leopa\OneDrive\Documentos\Curso Angular\clone_whats_app\WhatsAppFinalApi\obj\Debug\net6.0\WhatsAppFinalApi.genruntimeconfig.cache
+C:\Users\leopa\OneDrive\Documentos\Curso Angular\clone_whats_app\WhatsAppFinalApi\obj\Debug\net6.0\ref\WhatsAppFinalApi.dll
