@@ -9,5 +9,7 @@
             new User(id: new Guid(g: "67cb4c8a-4dce-4f36-bb59-5db371e239a4"), name: "nome 3"),
             new User(id: new Guid(g: "915652e3-581e-4b19-bdc2-c905bf2ee2ca"), name: "nome 4")
         ];
+
+        public static readonly List<UserImage> userImages = [];
     }
 }
