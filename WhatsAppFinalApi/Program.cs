@@ -1,3 +1,8 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using WhatsAppFinalApi.Auth;
+
 namespace WhatsAppFinalApi
 {
     public class Program
@@ -23,6 +28,25 @@ namespace WhatsAppFinalApi
 
             }));
 
+            builder.Services.AddAuthentication(opt =>
+            {
+                opt.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+                opt.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            }).AddJwtBearer(option =>
+            {
+                var secretByte = Encoding.UTF8.GetBytes(AuthSettings.JwtSecret);
+                var secretKey = new SymmetricSecurityKey(secretByte);
+
+                option.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateAudience = false,
+                    ValidateIssuer = false,
+                    ValidateLifetime = false,
+                    ValidateIssuerSigningKey = true,
+                    IssuerSigningKey = secretKey
+                };
+            });
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -38,7 +62,8 @@ namespace WhatsAppFinalApi
 
             app.UseAuthorization();
 
-
+            app.UseAuthentication();
+            app.UseAuthorization();
             app.MapControllers();
 
             app.Run();

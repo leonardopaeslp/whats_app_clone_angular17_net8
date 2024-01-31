@@ -38,6 +38,6 @@ namespace WhatsAppFinalApi.Users
             if(userImage == null) return NotFound();
 
             return File(userImage.Image, contentType: "image/png");
-        }
+        }   
     }
 }
