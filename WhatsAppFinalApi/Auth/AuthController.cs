@@ -27,7 +27,7 @@ namespace WhatsAppFinalApi.Auth
             var securityToken = new JwtSecurityToken(signingCredentials: secretKey, claims: [userIdClaim]);
 
             var token = new JwtSecurityTokenHandler().WriteToken(securityToken);
-            return Ok(new {request.UserId});
+            return Ok(new {request.UserId, token});
         }
     }
 }

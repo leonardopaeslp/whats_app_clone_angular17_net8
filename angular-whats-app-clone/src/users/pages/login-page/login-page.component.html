@@ -2,10 +2,10 @@
     <input type="file" #inputFile (change)="onFileSelected($event)">
     <div>Escolha um Login</div>
     @for (item of users; track $index) {
-        <div class="user">
+        <div class="user" (click)="login(item.user)">
             <img [src]="item.imageUrl">
             <span>{{item.user.name}}</span>
-            <button (click)="onImageButtonClicked(item.user.id)">IM</button>
+            <button (click)="onImageButtonClicked($event, item.user.id)">IM</button>
         </div>
     }
 </div>

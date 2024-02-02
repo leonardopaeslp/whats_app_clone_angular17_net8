@@ -3,6 +3,7 @@ import { UserService } from '../../user.service';
 import { catchError, of, take, tap } from 'rxjs';
 import { User } from '../../user.model';
 import { AsyncPipe } from '@angular/common';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -17,6 +18,7 @@ export class LoginPageComponent implements OnInit {
   private userService = inject(UserService);
   protected users$ = this.userService.getUsers();
   protected users: {user: User, imageUrl: string  | null}[] = [];
+  private router = inject(Router);
   private lastUserIdClicked = '';
 
   constructor() {
@@ -36,6 +38,8 @@ export class LoginPageComponent implements OnInit {
         return of([])
       })
     });
+
+
   }
 
   public onFileSelected(event: any){
@@ -56,9 +60,18 @@ export class LoginPageComponent implements OnInit {
     
   }
 
-  public onImageButtonClicked(userId: string){
+  public onImageButtonClicked(event: Event, userId: string){
+    event.stopPropagation();
     this.lastUserIdClicked = userId;
     this.inputFile.nativeElement.click();
+  }
+
+  public login (user: User){
+   this.userService.login(user.id).subscribe(res => {
+    this.userService.setCurrentUser({...user, token: res.token})
+
+    this.router.navigate(['conversations']);
+   })
   }
 
 }

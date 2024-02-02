@@ -95,3 +95,11 @@ C:\Users\leopa\OneDrive\Documentos\clone_whats_app\WhatsAppFinalApi\obj\Debug\ne
 C:\Users\leopa\OneDrive\Documentos\clone_whats_app\WhatsAppFinalApi\obj\Debug\net6.0\WhatsAppFinalApi.pdb
 C:\Users\leopa\OneDrive\Documentos\clone_whats_app\WhatsAppFinalApi\obj\Debug\net6.0\WhatsAppFinalApi.genruntimeconfig.cache
 C:\Users\leopa\OneDrive\Documentos\clone_whats_app\WhatsAppFinalApi\obj\Debug\net6.0\ref\WhatsAppFinalApi.dll
+C:\Users\leopa\OneDrive\Documentos\clone_whats_app\WhatsAppFinalApi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\leopa\OneDrive\Documentos\clone_whats_app\WhatsAppFinalApi\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\leopa\OneDrive\Documentos\clone_whats_app\WhatsAppFinalApi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\leopa\OneDrive\Documentos\clone_whats_app\WhatsAppFinalApi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\leopa\OneDrive\Documentos\clone_whats_app\WhatsAppFinalApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\leopa\OneDrive\Documentos\clone_whats_app\WhatsAppFinalApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\leopa\OneDrive\Documentos\clone_whats_app\WhatsAppFinalApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\leopa\OneDrive\Documentos\clone_whats_app\WhatsAppFinalApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
