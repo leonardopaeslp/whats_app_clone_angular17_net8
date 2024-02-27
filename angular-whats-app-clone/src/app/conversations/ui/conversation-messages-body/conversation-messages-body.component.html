@@ -1,0 +1,8 @@
+<div class="messages">
+    @for (item of messages; track $index) {
+        <app-chat [message]="item"></app-chat>
+    }
+</div>
+<div class="input">
+    <input type="text" name="" id="" placeholder="Pressione Enter para enviar" [(ngModel)]="inputMessage" (keyup.enter)="sendMessage()">
+</div>

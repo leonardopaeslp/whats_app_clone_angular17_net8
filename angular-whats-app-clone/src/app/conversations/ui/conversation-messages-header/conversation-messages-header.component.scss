@@ -1,0 +1,28 @@
+:host {
+  display: block;
+}
+
+img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  margin-right: 10px;
+}
+
+p{
+  font-size: 1rem;
+}
+
+.container-msg-header{
+  display: flex;
+  align-items: center;
+}
+
+.divider{
+  width: 100%;
+  height: 1px;
+  background-color: #101A20;
+  margin-top: 10px;
+}

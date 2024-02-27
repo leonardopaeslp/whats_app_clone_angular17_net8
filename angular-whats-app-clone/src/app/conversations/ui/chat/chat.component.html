@@ -1,0 +1,10 @@
+<div class="container-chat" [class.is-mine]="message.mine">
+    <div class="baloon">
+        <div class="mmessage">
+            {{message.message}}
+        </div>
+        <div class="hour">
+            {{message.time | date:'hh:mm a'}}
+        </div>
+    </div>
+</div>

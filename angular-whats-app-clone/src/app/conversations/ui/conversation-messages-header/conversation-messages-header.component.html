@@ -1,0 +1,9 @@
+@if (userId | async; as userImage) {
+    <div class="container-msg-header">
+        <img [src]="userImage.imageUrl">
+        <p>{{userImage.user.name}}</p>
+    </div>
+}
+
+<div class="divider"></div>
+

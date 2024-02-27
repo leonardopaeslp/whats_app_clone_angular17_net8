@@ -1,0 +1,11 @@
+<div class="container-modal">
+    <button (click)="showModalChange.emit(false)">X</button>
+
+    @for (item of users$ | async; track item.user.id) {
+        <div class="user" (click)="creatNewConversation(item.user)">
+            <img [src]="item.imageUrl">
+            <span>{{item.user.name}}</span>
+        </div>
+    }
+
+</div>

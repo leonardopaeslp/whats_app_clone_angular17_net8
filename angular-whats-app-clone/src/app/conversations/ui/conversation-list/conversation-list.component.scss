@@ -1,0 +1,30 @@
+:host {
+  display: block;
+  background-color: #101A20;
+  padding: 20px 10px;
+  border-right: 2px solid #0B1014;
+}
+
+.container-conversation{
+  height: calc(80vh - 56px);
+  overflow-y: scroll;
+
+  &::-webkit-scrollbar{
+    width: 7px;
+    &-track{
+      background-color: #101A20;
+    }
+    &-thumb{
+      background-color: #212D35;
+      border-radius: 7px;
+    }
+  }
+}
+
+.separator{
+  width: 100%;
+  height: 1px;
+  background-color: #212D35;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

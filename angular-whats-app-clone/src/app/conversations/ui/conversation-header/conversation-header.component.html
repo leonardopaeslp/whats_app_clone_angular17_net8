@@ -1,0 +1,9 @@
+<div class="header">
+    <img [src]="userImageUrl | async" alt="">
+    <span>{{userInfo()!.name}}</span>
+    <button (click)="showModal = true"> + </button>
+
+    @if (showModal) {
+    <app-new-conversation-modal [(showModal)]="showModal"></app-new-conversation-modal>
+    }
+</div>

@@ -1,0 +1,16 @@
+:host {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  height: 100%;
+}
+
+input{
+  margin: 5px 0px;
+  background-color: #0C1418;
+  width: 100%;
+  padding: 8px 20px;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  border-radius: 7px;
+}

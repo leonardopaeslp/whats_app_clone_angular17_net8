@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
@@ -11,14 +12,20 @@ namespace WhatsAppFinalApi.Auth
     public class AuthController: ControllerBase
     {
         [HttpPost]
-        public IActionResult Login(AuthLoginRequest request)
+        public IActionResult Login(AuthLoginRequest request, [FromServices] JwtSettingsOpptions jwtSettings)
         {
             if(!UserFakeDb.Users.Any(user => user.Id == request.UserId))
             {
                 return NotFound("User não encontrado");
             }
 
-            var byteSecret = Encoding.UTF8.GetBytes(AuthSettings.JwtSecret).ToArray();
+            //É dentro de .Value que fica a instância da classe JwtSettingsOpptions
+            //Quando eu pedir o JwtSettingsOpptions quero que você me dê a
+            //injeção de dependência jwtSettings já com o .Value
+
+            var secretTest = jwtSettings.Secret;
+
+            var byteSecret = Encoding.UTF8.GetBytes(secretTest!);
 
             var secretKey = new SigningCredentials(new SymmetricSecurityKey(byteSecret), SecurityAlgorithms.HmacSha256);
 

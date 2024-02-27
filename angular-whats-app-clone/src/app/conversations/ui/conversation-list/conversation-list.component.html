@@ -1,0 +1,7 @@
+<app-conversation-header></app-conversation-header>
+<div class="container-conversation">
+    @for (item of conversations; track item.id) {
+        <div class="separator"></div>
+        <app-conversation-contact [conversations]="item" (click)="goToUser(item.userId)"></app-conversation-contact>
+    }
+</div>

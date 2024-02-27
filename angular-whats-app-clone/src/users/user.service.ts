@@ -6,6 +6,8 @@ import { catchError, forkJoin, map, of, switchMap, tap } from "rxjs";
 import { localDb } from "../app/local-db/local-db";
 import { UserStorageInfo } from "./user-storage-info.model";
 import { AuthLoginRequest } from "./auth-login-response.models";
+import { Router } from "@angular/router";
+import { userImage } from "./user.image.model";
 
 @Injectable({
     providedIn: 'root'
@@ -15,6 +17,7 @@ export class UserService {
     private urlApi = `${environment.urlApi}User`
     private authUrlApi = `${environment.urlApi}Auth`
     private userInfo = signal<UserStorageInfo | null>(null)
+    private router = inject(Router);
 
     constructor() {
         effect(() => this.syncUserInfoLocalStorage());
@@ -74,10 +77,61 @@ export class UserService {
     }
 
     getUserInfoSignal(){
+        console.log(this.userInfo);
         return this.userInfo.asReadonly();
+        
     }
 
     isUserLogged(){
         return !!this.userInfo();
     }
+
+    trySyncLocalStorage(){
+        const localStorageData = localStorage.getItem('UserData');
+
+        if(!localStorageData){
+            return
+        }
+
+        const userData: UserStorageInfo = JSON.parse(localStorageData);
+        this.userInfo.set(userData);
+    }
+
+    logout(){
+        this.userInfo.set(null);
+        this.router.navigate(['login']);
+    }
+
+    getCurrentUserImage(){
+        let test = new localDb().getUserImage(this.userInfo()!.id).pipe(map(item => !!item ? URL.createObjectURL(item) : ''));
+        return test;
+    }
+
+    getLocalUsers(){
+        //função usada no modal de conversação
+        // para todos os itens, eu vou transformar todos eles em outro objeto. Para isso, utilizo o map do javascript em localUser. Para cada usuário dentro do array trazido, irei retornar um objeto do tipo userImage. 
+        let data = new localDb().getUsers().pipe(map(localUser => localUser.map(item => ({
+            user: {
+                id: item.id,
+                name: item.name
+            },
+            imageUrl: item.imageBlob && URL.createObjectURL(item.imageBlob)
+        }) as userImage)));
+        return data
+    }
+
+    getUserById(userId: string){
+        let retorno = new localDb().getUserById(userId).pipe(
+            map(item => ({
+                user: {
+                    id: item?.id,
+                    name: item?.name
+                },
+                imageUrl: !!item?.imageBlob ? URL.createObjectURL(item.imageBlob) : null
+            }) as userImage)
+        )
+
+        return retorno;
+    }
+
 }

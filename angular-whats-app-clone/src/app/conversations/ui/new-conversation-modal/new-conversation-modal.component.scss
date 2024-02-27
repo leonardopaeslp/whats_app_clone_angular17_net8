@@ -1,0 +1,53 @@
+@use '../../../../assets/styles/colors.scss' as *;
+:host {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  backdrop-filter: blur(2px);
+
+}
+
+.container-modal{
+  padding: 20px;
+  background-color: $background;
+  width: 400px;
+
+  button{
+    float: right;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    &:hover{
+      background-color: $background-2;
+    }
+  }
+
+  .user{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+    gap: 10px;
+    cursor: pointer;
+    &:hover{
+      background-color: #212D35;
+    }
+
+    img{
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
+}

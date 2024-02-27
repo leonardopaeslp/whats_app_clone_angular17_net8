@@ -1,0 +1,30 @@
+:host {
+display: block;
+margin-bottom: 5px;
+}
+
+.container-chat{
+  display: flex;
+  &.is-mine{
+    justify-content: flex-end;
+  }
+
+  .baloon{
+    background-color: #005B4E;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+
+    .mmessage{
+      font-size: .9rem;
+    }
+
+    .hour{
+      align-self: flex-end;
+      font-size: .8rem;
+      margin-left: 15px;
+      color: #a6abad;
+    }
+  }
+}

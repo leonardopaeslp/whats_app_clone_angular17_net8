@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using WhatsAppFinalApi.Auth;
@@ -47,6 +48,13 @@ namespace WhatsAppFinalApi
                 };
             });
 
+            builder.Services.Configure<JwtSettingsOpptions>(
+                builder.Configuration.GetRequiredSection(JwtSettingsOpptions.SessionName));
+
+            //provider é um objeto que representa o container de injeção de dependência do .NET.
+            //É ele quem configura tudo e retorna as instâncias das injeções de dependência.
+            //Estou criando uma injeção de dependência.
+            builder.Services.AddSingleton(provider => provider.GetRequiredService<IOptions<JwtSettingsOpptions>>().Value);
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
